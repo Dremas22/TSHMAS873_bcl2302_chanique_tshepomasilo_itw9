@@ -228,8 +228,11 @@ form {
     .sec_2, .sec_3 {
         text-align: center;
     }
+    .sec_2 {
+        padding-top: 105px;
+    }
     footer {
-        width: 550px;
+        width: 600px;
     }
     
 
