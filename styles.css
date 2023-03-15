@@ -171,6 +171,12 @@ select {
 
 form {
     text-align: center;
+    margin: 15px;
+    padding: 10px
+}
+
+.myForm {
+    padding: 10px;
 }
 
 .btn {
@@ -180,7 +186,7 @@ form {
 }
 
 .contacts_2 {
-    justify-items: center;
+    justify-content: center;
     text-align: center;
 }
 
