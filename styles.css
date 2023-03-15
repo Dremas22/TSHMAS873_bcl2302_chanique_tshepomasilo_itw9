@@ -200,6 +200,8 @@ form {
 }
 
 @media screen and (min-width: 358px)  and (max-width: 744px) {
+
+
     .container_1, .container_2 {
         width: 550px;
     }
@@ -207,10 +209,11 @@ form {
         display: grid;
         grid-template-columns: repeat(1, 0.5fr);
         gap: 0;
+        justify-content: center;
     }
     .sec_1 {
         height: 800px;
-        text-align: center;
+
     }
     
     header{
@@ -218,22 +221,21 @@ form {
     }
     .expertice {
         grid-template-columns: repeat(1, 0.5fr);
-        justify-items: center;
+        justify-content: center;
     }
     .container_3 {
         grid-template-columns: repeat(1, 0.5fr);
         gap: 1em;
-        justify-items: center;
+        justify-content: center;
     }
     .sec_2, .sec_3 {
-        text-align: center;
+        justify-content: center;
     }
     .sec_2 {
         padding-top: 105px;
     }
     footer {
-        width: 600px;
+        width: 650px;
     }
     
-
 }
