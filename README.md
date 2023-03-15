@@ -2,7 +2,7 @@
 # Author - Tshepo Masilo.
 - My digital resume.
 - Wireframe link: https://www.figma.com/file/pd6cqKp1uJvyp7bOUQLiqq/Programming-Fundamentals----Tshepo-Masilo?node-id=0%3A1&t=9VuIOL2mscqceKbh-1
-- 3 web pages: resume9.html, skills.html and contacts.
+- 3 web pages: index.html, skills.html and contacts.
 - Images folder.
-- CSS file.
+- CSS file: styles.css
 - 
