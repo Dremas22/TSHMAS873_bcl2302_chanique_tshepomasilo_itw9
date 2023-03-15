@@ -1,0 +1,236 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #B0A8B9;
+    
+    
+}
+
+header {
+    text-align: center;
+    background-image: url("images/vecteezy_businessman-hand-working-with-modern-laptop-computer-in_8357938_732.jpg");
+    background-size: cover;
+    padding: 15px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+}
+
+
+.container_1 {
+    display: grid;
+    grid-template-columns: repeat(2, 250px );
+    grid-auto-flow: row;
+    direction: rtl;
+    gap: 2em;
+    margin-top: 10px;
+}
+
+
+.statement {
+    border: 5px double #fff;
+    background-color: rgba(0, 0, 10, 0.45);
+    color: #D0E6F0;
+    backdrop-filter: 8px;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+
+.sec_1 {
+    text-align: center;
+    height: 250px;
+}
+
+.me {
+    display: grid;
+    grid-template-columns: repeat(3, 0.7fr);
+    justify-items: center;
+    gap: 2em;
+    
+}
+
+.int_skill, .vision, .h1_me {
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    font-size: 14px;
+    background-image: url("images/inter_skill.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #4B4453;
+    padding: 30px;
+        
+}
+
+.h1_me {
+    display: grid;
+    font-size: 18px;
+}
+
+#about_me {
+     text-align: center;
+}
+
+
+
+.abt_me, .my_skills, .contacts {
+    width: 60px;
+    box-shadow: 3px 3px 3px;
+} 
+
+.container_2 {
+    display: grid;
+    grid-template-columns: repeat(3, 0.35fr);
+    padding: 5px;
+    justify-content: center;
+}
+
+.me {
+    text-align: center;
+ 
+}
+
+.c_space {
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.expertice {
+    display: grid;
+    grid-template-columns: repeat(2, 0.45fr);
+    grid-gap: 3em;
+    justify-items: center;
+   
+}
+
+.skills, .qualifications, .experience, .extra_mural {
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 20%;
+    box-shadow: 7px 7px 7px;
+}
+
+.sec_2 {
+    padding: 10px;
+}
+
+.container_3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    
+    
+}
+
+footer {
+    margin-top: 80px;
+    background-color: rgba(0, 0, 10, 0.848);
+    backdrop-filter: 8px;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 60px;
+    margin: 3px;
+}
+
+.myForm, .contacts_2 {
+    background-color: #D0E6F0;
+    width: 400px;
+    border-radius: 10%;
+    box-shadow: 20px 20px 20px;
+    text-align: center;
+}
+
+textarea {
+    width: 76.5%;
+    height: 70px;
+    background-color: #D5CABD;
+}
+
+.input_form {
+    width: 60%;
+    height: 20px;
+    background-color: #D5CABD;
+}
+
+select {
+    width: 62%;
+    background-color: #D5CABD;
+}
+
+form {
+    text-align: center;
+}
+
+.btn {
+    width: 50%;
+    border-radius: 20px;
+    background-color: #D5CABD;
+}
+
+.contacts_2 {
+    justify-items: center;
+    text-align: center;
+}
+
+.call, .email_img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    width: 250px;
+}
+
+.call_symbol {
+    width: 30px;
+}
+
+.email_2 {
+    width: 30px;
+}
+
+@media screen and (min-width: 358px)  and (max-width: 744px) {
+    .container_1, .container_2 {
+        width: 550px;
+    }
+    .me {
+        display: grid;
+        grid-template-columns: repeat(1, 0.5fr);
+        gap: 0;
+    }
+    .sec_1 {
+        height: 800px;
+        text-align: center;
+    }
+    
+    header{
+        width: 620px;
+    }
+    .expertice {
+        grid-template-columns: repeat(1, 0.5fr);
+        justify-items: center;
+    }
+    .container_3 {
+        grid-template-columns: repeat(1, 0.5fr);
+        gap: 1em;
+        justify-items: center;
+    }
+    .sec_2, .sec_3 {
+        text-align: center;
+    }
+    footer {
+        width: 550px;
+    }
+    
+
+}
